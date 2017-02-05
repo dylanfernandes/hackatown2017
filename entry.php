@@ -8,8 +8,8 @@ class Entry
 	function Entry($rName, $rPlate,$oPlate) 
    {
        $this->rName = $rName;
-       $this->$rPlate = $rPlate;
-       $this->$oPlate = $oPlate;
+       $this->rPlate = $rPlate;
+       $this->oPlate = $oPlate;
    } 
 
    function getRName()
@@ -29,7 +29,7 @@ class Entry
    {
    	$this->rName = $name;
    }
-  function setRPlate($oPlate)
+  function setRPlate($rPlate)
    {
       $this->rPlate= $rPlate;
    }

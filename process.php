@@ -23,8 +23,14 @@ for($i = 0;$i < sizeof($people);$i++)
 }
 for($j = 0;$j < sizeof($existing);$j++)
 {
+	$string = $string. "<tr>";
+	$string =  $string. "<td>".($j+1)."</td>";
+	$string =  $string."<td>".$existing[$j]->getRName() ."</td>";
+	$string =  $string."<td>". $existing[$j]->getRPlate() ."</td>";
+	$string =  $string."<td>". $existing[$j]->getOPlate() ."</td>";
 	//echo "<br /> The Password is: ".$existing[$j]->userName;
-	echo $existing[$j]->getRName();
+	//echo $existing[$j]->getRName();
+	$string = $string. "</tr>";
 	
 }
 fclose($myfile);
