@@ -1,1 +1,1 @@
-licensePlate:123456;driverName:Lawrence;otherdriverlicense:567890
+Mark Tester:A12 BCD:A12 BCD
